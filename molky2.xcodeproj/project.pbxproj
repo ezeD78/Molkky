@@ -11,6 +11,7 @@
 		E358FE9D2B4DEAB5007A8849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FE9C2B4DEAB5007A8849 /* ContentView.swift */; };
 		E358FE9F2B4DEAB6007A8849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */; };
 		E358FEA22B4DEAB6007A8849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */; };
+		E358FEA92B4DF076007A8849 /* InscriptionDesParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E358FE9C2B4DEAB5007A8849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionDesParticipant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E358FE9A2B4DEAB5007A8849 /* molky2App.swift */,
 				E358FE9C2B4DEAB5007A8849 /* ContentView.swift */,
+				E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */,
 				E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */,
 				E358FEA02B4DEAB6007A8849 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				E358FE9D2B4DEAB5007A8849 /* ContentView.swift in Sources */,
 				E358FE9B2B4DEAB5007A8849 /* molky2App.swift in Sources */,
+				E358FEA92B4DF076007A8849 /* InscriptionDesParticipant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

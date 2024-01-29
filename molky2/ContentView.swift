@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+  
+    @State var nbJoueur = 2
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+        
+                Text("combien de personnes vont jouer ?  ")
+                Stepper("\(nbJoueur)", value: $nbJoueur, in: 2 ... 9 ).padding()
+                NavigationLink(destination: {
+                    InscriptionDesParticipant(nbjoueur: nbJoueur)
+                }, label: {
+                    Text("Suivant")
+                })
+                    .navigationTitle("Molky")
+                    
+    }
+            
         }
+        
         .padding()
     }
 }
