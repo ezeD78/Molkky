@@ -11,7 +11,7 @@ import SwiftUI
 struct molky2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PageDemarrage()
         }
     }
 }

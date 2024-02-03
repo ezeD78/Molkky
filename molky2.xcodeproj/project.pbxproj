@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E346FC122B67F15A00849913 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC112B67F15A00849913 /* Joueur.swift */; };
+		E346FC142B67F30000849913 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC132B67F30000849913 /* GameBrain.swift */; };
+		E346FC192B6B9EAF00849913 /* EcranDejeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = E346FC182B6B9EAF00849913 /* EcranDejeux.swift */; };
 		E358FE9B2B4DEAB5007A8849 /* molky2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FE9A2B4DEAB5007A8849 /* molky2App.swift */; };
-		E358FE9D2B4DEAB5007A8849 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FE9C2B4DEAB5007A8849 /* ContentView.swift */; };
+		E358FE9D2B4DEAB5007A8849 /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FE9C2B4DEAB5007A8849 /* PageDemarrage.swift */; };
 		E358FE9F2B4DEAB6007A8849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */; };
 		E358FEA22B4DEAB6007A8849 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */; };
 		E358FEA92B4DF076007A8849 /* InscriptionDesParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */; };
+		E37D553E2B6D450C0099D783 /* MolkyGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D553D2B6D450C0099D783 /* MolkyGridController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E346FC112B67F15A00849913 /* Joueur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		E346FC132B67F30000849913 /* GameBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
+		E346FC182B6B9EAF00849913 /* EcranDejeux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcranDejeux.swift; sourceTree = "<group>"; };
 		E358FE972B4DEAB5007A8849 /* molky2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = molky2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E358FE9A2B4DEAB5007A8849 /* molky2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = molky2App.swift; sourceTree = "<group>"; };
-		E358FE9C2B4DEAB5007A8849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E358FE9C2B4DEAB5007A8849 /* PageDemarrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
 		E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InscriptionDesParticipant.swift; sourceTree = "<group>"; };
+		E37D553D2B6D450C0099D783 /* MolkyGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkyGridController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +42,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E346FC0F2B67F11700849913 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E358FE9C2B4DEAB5007A8849 /* PageDemarrage.swift */,
+				E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */,
+				E346FC182B6B9EAF00849913 /* EcranDejeux.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E346FC102B67F14200849913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E346FC112B67F15A00849913 /* Joueur.swift */,
+				E346FC132B67F30000849913 /* GameBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E358FE8E2B4DEAB5007A8849 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				E358FE9A2B4DEAB5007A8849 /* molky2App.swift */,
-				E358FE9C2B4DEAB5007A8849 /* ContentView.swift */,
-				E358FEA82B4DF076007A8849 /* InscriptionDesParticipant.swift */,
+				E346FC102B67F14200849913 /* Model */,
+				E37D553C2B6D44B60099D783 /* Controler */,
+				E346FC0F2B67F11700849913 /* View */,
 				E358FE9E2B4DEAB6007A8849 /* Assets.xcassets */,
 				E358FEA02B4DEAB6007A8849 /* Preview Content */,
 			);
@@ -68,6 +96,14 @@
 				E358FEA12B4DEAB6007A8849 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E37D553C2B6D44B60099D783 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				E37D553D2B6D450C0099D783 /* MolkyGridController.swift */,
+			);
+			path = Controler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E358FE9D2B4DEAB5007A8849 /* ContentView.swift in Sources */,
+				E346FC192B6B9EAF00849913 /* EcranDejeux.swift in Sources */,
+				E358FE9D2B4DEAB5007A8849 /* PageDemarrage.swift in Sources */,
+				E37D553E2B6D450C0099D783 /* MolkyGridController.swift in Sources */,
+				E346FC142B67F30000849913 /* GameBrain.swift in Sources */,
+				E346FC122B67F15A00849913 /* Joueur.swift in Sources */,
 				E358FE9B2B4DEAB5007A8849 /* molky2App.swift in Sources */,
 				E358FEA92B4DF076007A8849 /* InscriptionDesParticipant.swift in Sources */,
 			);

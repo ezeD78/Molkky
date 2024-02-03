@@ -7,15 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PageDemarrage: View {
   
     @State var nbJoueur = 2
     var body: some View {
         NavigationView {
             VStack {
-        
+        Spacer()
                 Text("combien de personnes vont jouer ?  ")
-                Stepper("\(nbJoueur)", value: $nbJoueur, in: 2 ... 9 ).padding()
+                Stepper("\(nbJoueur)", value: $nbJoueur, in: 2 ... 10 ).padding()
+                Spacer()
                 NavigationLink(destination: {
                     InscriptionDesParticipant(nbjoueur: nbJoueur)
                 }, label: {
@@ -32,5 +33,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    PageDemarrage()
 }
