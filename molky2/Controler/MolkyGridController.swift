@@ -28,7 +28,7 @@ class MolkyGridController : ObservableObject {
             scoreEncours = 0
         case 1:
             for i in 0 ... (quilleValide.count) - 1 {
-                print(i)
+                
                 if quilleValide[i] {
                     scoreEncours = i + 1
                     return
